@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
      ),
      initialRoute: '/',
      routes: {
-       '/': (context) => EnterRoomScreen(),
-       '/chat': (context) => const ChatScreen(),
+       '/': (context) => const EnterRoomScreen(),
+       '/chat': (context) => const ChatScreen(userName: '',),
      },
    );
  }
